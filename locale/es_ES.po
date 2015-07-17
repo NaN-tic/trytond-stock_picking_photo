@@ -1,0 +1,15 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.shipment.out.picking.result,photo:"
+msgid "Photo"
+msgstr "Foto"
+
+msgctxt "help:stock.shipment.out.picking.result,photo:"
+msgid "Select a file to attach to the Shipment Out"
+msgstr "Selecciona un fichero para adjuntar en el albarán de cliente"
+
+msgctxt "wizard_button:stock.shipment.out.packed,result,photo:"
+msgid "Save Photo"
+msgstr "Guardar foto"
