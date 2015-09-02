@@ -25,5 +25,5 @@ class StockPickingPhotoTestCase(unittest.TestCase):
 def suite():
     suite = trytond.tests.test_tryton.suite()
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(
-        StockPickingTestCase))
+        StockPickingPhotoTestCase))
     return suite
