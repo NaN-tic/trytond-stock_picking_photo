@@ -6,7 +6,7 @@ from .shipment import *
 
 def register():
     Pool.register(
-        ShipmentOutPickingResult,
+        ShipmentOutPickingPhoto,
         module='stock_picking_photo', type_='model')
     Pool.register(
         ShipmentOutPacked,
