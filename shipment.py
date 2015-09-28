@@ -47,9 +47,7 @@ class ShipmentOutPacked:
         shipment = self.photo_ask.shipment
         attach = self.photo_ask.attach
         if attach:
-            print "adjuntem"
             hashname = hashlib.md5(attach).hexdigest()
-            print hashname
             attachment = Attachment(
                 name='%s-%s' % (shipment.rec_name, hashname),
                 type='data',
