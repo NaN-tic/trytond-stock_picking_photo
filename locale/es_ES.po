@@ -1,15 +1,47 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
-msgctxt "field:stock.shipment.out.picking.result,photo:"
-msgid "Photo"
-msgstr "Foto"
+msgctxt "field:stock.shipment.out.picking.photo,attach:"
+msgid "Attach"
+msgstr "Adjunto"
 
-msgctxt "help:stock.shipment.out.picking.result,photo:"
+msgctxt "field:stock.shipment.out.picking.photo,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:stock.shipment.out.picking.photo,shipment:"
+msgid "Shipment"
+msgstr "Albarán"
+
+msgctxt "help:stock.shipment.out.picking.photo,attach:"
 msgid "Select a file to attach to the Shipment Out"
-msgstr "Selecciona un fichero para adjuntar en el albarán de cliente"
+msgstr "Seleccione un fichero para adjuntar al albarán de cliente"
 
-msgctxt "wizard_button:stock.shipment.out.packed,result,photo:"
-msgid "Save Photo"
-msgstr "Guardar foto"
+msgctxt "model:stock.shipment.out.picking.photo,name:"
+msgid "Shipment Out Picking Photo"
+msgstr "Fotografía empaquetado albarán cliente"
+
+msgctxt "view:stock.shipment.out.picking.photo:"
+msgid "Add shipment attachments"
+msgstr "Añade adjuntos en albaranes"
+
+msgctxt "view:stock.shipment.out.picking.photo:"
+msgid "Shipment Out Picking Photo"
+msgstr "Fotografía empaquetado albarán cliente"
+
+msgctxt "wizard_button:stock.shipment.out.packed,photo_ask,end:"
+msgid "Cancel"
+msgstr "Cancel·la"
+
+msgctxt "wizard_button:stock.shipment.out.packed,photo_ask,photo:"
+msgid "Save and New"
+msgstr "Guardar y nuevo"
+
+msgctxt "wizard_button:stock.shipment.out.packed,photo_ask,picking:"
+msgid "New picking"
+msgstr "Nuevo empaquetado"
+
+msgctxt "wizard_button:stock.shipment.out.packed,result,photo_ask:"
+msgid "Add Photo"
+msgstr "Añade fotografía"
