@@ -7,7 +7,6 @@ from trytond.pool import Pool, PoolMeta
 import hashlib
 
 __all__ = ['ShipmentOutPickingPhoto', 'ShipmentOutPacked']
-__metaclass__ = PoolMeta
 
 
 class ShipmentOutPickingPhoto(ModelView):
@@ -19,6 +18,7 @@ class ShipmentOutPickingPhoto(ModelView):
 
 
 class ShipmentOutPacked:
+    __metaclass__ = PoolMeta
     __name__ = 'stock.shipment.out.packed'
     photo = StateTransition()
     photo_ask = StateView('stock.shipment.out.picking.photo',
